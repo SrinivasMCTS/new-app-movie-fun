@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.superbiz.moviefun.SmokeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-19T12:00:54" hostname="PC270883.local" time="2.175">
+  <properties/>
+  <testcase name="smokeTest" classname="org.superbiz.moviefun.SmokeTest" time="2.175"/>
+  <system-out><![CDATA[17:30:54.858 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/"
+17:30:54.911 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+17:30:54.976 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/" resulted in 200 (null)
+17:30:54.977 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@4cda9fea]
+17:30:54.987 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/setup"
+17:30:54.987 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+17:30:56.487 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/setup" resulted in 200 (null)
+17:30:56.487 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@4cda9fea]
+17:30:56.488 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:8080/moviefun"
+17:30:56.489 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+17:30:56.504 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:8080/moviefun" resulted in 200 (null)
+17:30:56.505 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@4cda9fea]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
